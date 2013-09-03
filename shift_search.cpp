@@ -41,9 +41,12 @@ int shift_search(const vector<int>& vec, int p, int q, int f) {
 }
 
 int shift_search_test() {
-    vector<int> vec = { 6, 7, 8, 9, 1, 2, 3, 4, 5 };
-    //vector<int> vec = { 1, 2, 3, 4, 5 };
-    int pos = shift_search(vec, 0, 8, 8);
-    cout << pos << endl; // outputs: 2
+    vector<int> vec1 = { 1, 2, 3, 4, 5 };
+    int pos1 = binary_search(vec1, 0, 8, 3);
+    cout << pos1 << endl; // outputs: 2
+
+    vector<int> vec2 = { 6, 7, 8, 9, 1, 2, 3, 4, 5 };
+    int pos2 = shift_search(vec2, 0, 8, 8);
+    cout << pos2 << endl; // outputs: 2
     return 0;
 }
