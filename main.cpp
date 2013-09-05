@@ -10,6 +10,7 @@
 #include "quickfind.h"
 #include "quickmerge.h"
 #include "shift_search.h"
+#include "maxsubarr.h"
 
 using namespace std;
 
@@ -213,6 +214,9 @@ void print(RandomAccessIterator begin, RandomAccessIterator end) {
 
 int main()
 {
+    find_max_sub_arr_test();
+    return 0;
+
     shift_search_test();
     return 0;
 

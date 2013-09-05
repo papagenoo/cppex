@@ -15,10 +15,12 @@ SOURCES += \
     main.cpp \
     quickfind.cpp \
     quickmerge.cpp \
-    shift_search.cpp
+    shift_search.cpp \
+    maxsubarr.cpp
 
 HEADERS += \
     qfind.h \
     quickfind.h \
     quickmerge.h \
-    shift_search.h
+    shift_search.h \
+    maxsubarr.h
